@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* align-content: center; */
+  height: 150px;
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+
+.innerContainer {
+  /* padding-left: 15%; */
+  width: 75%;
+  /* padding-right: 15%; */
+}
+
+.ulList {
+  list-style: none;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+.reloj {
+  font-size: xxx-large;
+  font-weight: 700;
+}
+
+li {
+  font-size: xxx-large;
+  font-weight: 700;
+}
